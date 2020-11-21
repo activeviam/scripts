@@ -1,6 +1,6 @@
 {
   "name": "@activeviam/scripts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scripts for developing React/TypeScript libraries.",
   "license": "MIT",
   "author": "ActiveViam",
