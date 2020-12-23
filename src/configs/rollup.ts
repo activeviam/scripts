@@ -8,6 +8,7 @@ import postcss from "rollup-plugin-postcss";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import babelConfig from "./babel";
 import pkgDir from "pkg-dir";
+import json from "@rollup/plugin-json";
 import { extensions, extensionsWithDot } from "../extensions";
 
 const root = pkgDir.sync();
@@ -53,6 +54,7 @@ export const config: RollupOptions = {
       modules: false,
       use: ["sass"],
     }),
+    json(),
     babel({
       babelrc: false,
       babelHelpers: "runtime",
