@@ -1,5 +1,5 @@
 import isCI from "is-ci";
-import { config as jestConfig } from "../configs/jest";
+import jestConfig from "../configs/jest";
 import jest = require("jest");
 
 export const test = async (args: string[]): Promise<void> => {
