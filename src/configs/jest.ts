@@ -17,7 +17,7 @@ const ignores = [
   "__mocks__",
 ];
 
-export const config = {
+export default {
   roots: [path.join(root, "src")],
   testEnvironment: "jsdom",
   moduleFileExtensions: extensions,
